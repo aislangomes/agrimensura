@@ -10,7 +10,7 @@ export function Projects() {
   return (
     <section id="projects" className="py-20">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-12">
           Projetos Recentes
         </h2>
         <div className="grid gap-8 md:grid-cols-3">

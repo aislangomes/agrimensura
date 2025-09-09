@@ -11,7 +11,7 @@ export function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Contato</h3>
           <p className="flex items-center gap-2">
-            <Phone size={18} /> (11) 99999-9999
+            <Phone size={18} /> (15) 99726-0425
           </p>
           <p className="flex items-center gap-2 mt-2">
             <Mail size={18} /> contato@aceagrimensura.com
@@ -22,7 +22,7 @@ export function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Endereço</h3>
           <p className="flex items-start gap-2">
-            <MapPin size={18} /> Rua Exemplo, 123 - Centro, São Paulo - SP
+            <MapPin size={18} /> Sorocaba - SP
           </p>
           <p className="flex items-center gap-2 mt-2">
             <Clock size={18} /> Seg - Sex: 08h às 18h
@@ -47,10 +47,10 @@ export function Footer() {
               rel="noopener noreferrer"
               className="hover:text-gray-300"
             >
-              <Linkedin size={22} />
+              <Linkedin size={22} fill="#fff" />
             </a>
             <a
-              href="https://wa.me/55SEUNUMERO"
+              href="https://wa.me/55997260425"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300"
