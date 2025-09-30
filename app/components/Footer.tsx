@@ -5,7 +5,7 @@ import { Phone, Mail, MapPin, Clock, Instagram, Linkedin, MessageCircle, Youtube
 export function Footer() {
   return (
     <footer className="bg-foreground text-white py-10 mt-12">
-      <div className="container mx-auto px-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className="container ml-auto px-6 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         
         {/* Informações de Contato */}
         <div>
