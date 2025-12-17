@@ -13,8 +13,14 @@ export function Footer() {
           <p className="flex items-center gap-2">
             <Phone size={18} /> (15) 99726-0425
           </p>
+          <p className="flex items-center gap-2">
+            <Phone size={18} /> (15) 99112-3520
+          </p>
           <p className="flex items-center gap-2 mt-2">
-            <Mail size={18} /> contato@aceagrimensura.com
+            <Mail size={18} /> cesaradilsonlg@gmail.com
+          </p>
+          <p className="flex items-center gap-2 mt-2">
+            <Mail size={18} /> aislancesarag@gmail.com
           </p>
         </div>
 
@@ -34,7 +40,7 @@ export function Footer() {
           <h3 className="text-lg font-semibold mb-4">Redes Sociais</h3>
           <div className="flex gap-4">
             <a
-              href="https://instagram.com/seuinstagram"
+              href="https://www.instagram.com/droneace_"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300"
@@ -42,7 +48,7 @@ export function Footer() {
               <Instagram size={22} />
             </a>
             <a
-              href="https://linkedin.com/in/seulinkedin"
+              href="https://www.linkedin.com/in/aislangomes/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300"
@@ -58,7 +64,7 @@ export function Footer() {
               <MessageCircle size={22} />
             </a>
             <a
-              href="https://youtube.com/seuyoutube"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300"

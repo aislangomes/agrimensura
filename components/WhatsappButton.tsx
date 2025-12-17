@@ -1,6 +1,5 @@
 "use client";
 
-import { MessageCircle, Phone } from "lucide-react";
 import Image from "next/image";
 
 export function WhatsappButton() {
