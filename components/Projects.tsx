@@ -1,5 +1,8 @@
 "use client";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7a918be (fixes eslint)
 import { LightboxZoom } from "./ui/LightboxZoom";
 
 export function Projects() {
