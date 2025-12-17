@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import { ImageZoom } from "./ui/shadcn-io/image-zoom";
 import { LightboxZoom } from "./ui/LightboxZoom";
 
 export function Projects() {
