@@ -12,11 +12,11 @@ export function Profile() {
   return (
     <section id="projects" className="py-20">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-12 scren">
           Profissionais
         </h2>
-        <div className="flex justify-around gap-2">
-          <span className="flex gap-4">
+        <div className="flex justify-around gap-2 md:flex-row flex-col">
+          <span className="flex gap-4 md:flex-row flex-col">
             <ImageZoom>
                     <Image
                       alt="Cesar Adilson Lopes Gomes"
@@ -34,7 +34,7 @@ export function Profile() {
                 <p>CR: 42334234</p>
               </span>
             </span>
-            <span className="flex gap-4">
+            <span className="flex gap-4 md:flex-row flex-col">
               <ImageZoom>
                     <Image
                       alt="Aislan César Alves Gomes"
@@ -46,9 +46,9 @@ export function Profile() {
                     />
               </ImageZoom>
               <span className="text-xl text-left text-white leading-8">
-                <h2 className="text-2xl text-left text-white font-bold">Aislan César Alves Gomes</h2>
+                <h2 className="text-2xl text-left text-white font-bold ">Aislan César Alves Gomes</h2>
                 <p>Operador e Programador</p>
-                <p>aislancesaragg@gmail.com</p>
+                <p>aislancesarag@gmail.com</p>
               </span>
             </span>
         </div>

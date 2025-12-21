@@ -16,12 +16,12 @@ export function Footer() {
           <p className="flex items-center gap-2">
             <Phone size={18} /> (15) 99112-3520
           </p>
-          <p className="flex items-center gap-2 mt-2">
+          <a href="mailto:cesaradilsonlg@gmail.com" className="flex items-center gap-2 mt-2">
             <Mail size={18} /> cesaradilsonlg@gmail.com
-          </p>
-          <p className="flex items-center gap-2 mt-2">
+          </a>
+          <a href="mailto:aislancesarag@gmail.com" className="flex items-center gap-2 mt-2">
             <Mail size={18} /> aislancesarag@gmail.com
-          </p>
+          </a>
         </div>
 
         {/* Endereço e Horário */}
