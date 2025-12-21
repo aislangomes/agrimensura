@@ -9,21 +9,34 @@ export async function sendEmail(formData: FormData) {
   const email = formData.get("email") as string;
   const message = formData.get("message") as string;
 
+  // Validação básica de segurança
+  if (!name || !email || !message) {
+    return { success: false, error: "Preencha todos os campos." };
+  }
+
   try {
     await resend.emails.send({
-      from: `${email}`, // No início use este e-mail de teste
-      to: "aislan199@gmail.com",
+      // 1. Se não tiver domínio próprio verificado, use: "onboarding@resend.dev"
+      // 2. Se tiver domínio (ex: contato@aceagrimensura.com.br), use ele aqui
+      from: "Ace Site <onboarding@resend.dev>", 
+      to: "aislancesarag@gmail.com",
       subject: `Novo contato de ${name}`,
-      replyTo: email,
+      replyTo: email, // Isso permite que, ao clicar em "Responder", o e-mail vá para o cliente
       html: `
-        <h1>Novo Contato do Site</h1>
-        <p><strong>Nome:</strong> ${name}</p>
-        <p><strong>E-mail:</strong> ${email}</p>
-        <p><strong>Mensagem:</strong> ${message}</p>
+        <div style="font-family: sans-serif; line-height: 1.5;">
+          <h1>Novo Contato do Site</h1>
+          <p><strong>Nome:</strong> ${name}</p>
+          <p><strong>E-mail:</strong> ${email}</p>
+          <hr />
+          <p><strong>Mensagem:</strong></p>
+          <p>${message}</p>
+        </div>
       `,
     });
+
     return { success: true };
   } catch (error) {
-    return { success: false, error };
+    console.error("Erro ao enviar e-mail:", error);
+    return { success: false, error: "Falha ao enviar a mensagem. Tente novamente." };
   }
 }

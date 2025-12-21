@@ -5,16 +5,7 @@ export function Projects() {
   const items = [
     { type: "image", src: "peixoto.png", title: "Levantamento Topográfico" },
     { type: "image", src: "desmembramento.png", title: "Desmembramento" },
-    { type: "image", src: "IMG00155.jpg", title: "Georreferenciamento" },
-    { type: "image", src: "foto.jpg", title: "Levantamento Topográfico" },
-    { type: "video", src: "/public/projeto3.mp4", title: "Desmembramento" },
-    { type: "video", src: "/public/projeto3.mp4", title: "Mapeamento com Drone" },
-    { type: "image", src: "/public/projeto1.jpg", title: "Levantamento Topográfico" },
-    { type: "image", src: "/public/projeto2.jpg", title: "Georreferenciamento" },
-    { type: "video", src: "/public/projeto3.mp4", title: "Mapeamento com Drone" },
-    { type: "image", src: "/public/projeto1.jpg", title: "Levantamento Topográfico" },
-    { type: "image", src: "/public/projeto2.jpg", title: "Georreferenciamento" },
-    { type: "video", src: "/public/projeto3.mp4", title: "Mapeamento com Drone" },
+    { type: "video", src: "ace.mp4", title: "Mapeamento Aéreo" },
   ];
 
   return (
